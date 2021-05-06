@@ -1,0 +1,318 @@
+
+# include "iGraphics.h"
+void background();
+void backGroundMove();
+void backValCheck();
+
+void iDraw()
+{
+	
+	iClear();
+	background();
+	
+}
+int t;
+int backY1=0;
+int backY2=0;
+int backY3=0;
+int backY4=0;
+int backY5=0;
+int backY6=0;
+int backY7=0;
+int backY8=0;
+int backY9=0;
+int backY10=0;
+int backY11=0;
+int backY12=0;
+int backY13=0;
+int backY14=0;
+int backY15=0;
+int backY16=0;
+int backY17=0;
+int backY18=0;
+int backY19=0;
+int backY20=0;
+int backY21=0;
+int backY22=0;
+int backY23=0;
+int backY24=0;
+int backY25=0;
+int backY26=0;
+int backY27=0;
+int backY28=0;
+int backY29=0;
+int backY30=0;
+
+void background()
+{
+	backValCheck();
+	iShowBMP(0,20-backY1,"back01.bmp");
+    iShowBMP(0,40-backY2,"back02.bmp");
+    iShowBMP(0,60-backY3,"back03.bmp");
+    iShowBMP(0,80-backY4,"back04.bmp");
+    iShowBMP(0,100-backY5,"back05.bmp");
+    iShowBMP(0,120-backY6,"back06.bmp");
+    iShowBMP(0,140-backY7,"back07.bmp");
+    iShowBMP(0,160-backY8,"back08.bmp");
+    iShowBMP(0,180-backY9,"back09.bmp");
+    iShowBMP(0,200-backY10,"back10.bmp");
+    iShowBMP(0,220-backY11,"back11.bmp");
+    iShowBMP(0,240-backY12,"back12.bmp");
+    iShowBMP(0,260-backY13,"back13.bmp");
+    iShowBMP(0,280-backY14,"back14.bmp");
+    iShowBMP(0,300-backY15,"back15.bmp");
+    iShowBMP(0,320-backY16,"back16.bmp");
+    iShowBMP(0,340-backY17,"back17.bmp");
+    iShowBMP(0,360-backY18,"back18.bmp");
+    iShowBMP(0,380-backY19,"back19.bmp");
+    iShowBMP(0,400-backY20,"back20.bmp");
+    iShowBMP(0,420-backY21,"back21.bmp");
+    iShowBMP(0,440-backY22,"back22.bmp");
+    iShowBMP(0,460-backY23,"back23.bmp");
+    iShowBMP(0,480-backY24,"back24.bmp");
+    iShowBMP(0,500-backY25,"back25.bmp");
+    iShowBMP(0,520-backY26,"back26.bmp");
+    iShowBMP(0,540-backY27,"back27.bmp");
+    iShowBMP(0,560-backY28,"back28.bmp");
+    iShowBMP(0,580-backY29,"back29.bmp");
+    iShowBMP(0,600-backY30,"back30.bmp");
+}
+
+
+
+void backValCheck()
+{
+
+  if(20-backY1 <= -1)
+  {
+	  backY1 = -560;
+  }
+  if(40-backY2 <= -1)
+  {
+	  backY2 = -540;
+  }
+  if(60-backY3 <= -1)
+  {
+	  backY3 = -520;
+  }
+  if(80-backY4 <= -1)
+  {
+	  backY4 = -500;
+  }
+  if(100-backY5 <= -1)
+  {
+	  backY5 = -480;
+  }
+  if(120-backY6 <= -1)
+  {
+	  backY6 = -460;
+  }
+  if(140-backY7 <= -1)
+  {
+	  backY7 = -440;
+  }
+  if(160-backY8 <= -1)
+  {
+	  backY8 = -420;
+  }
+  if(180-backY9 <= -1)
+  {
+	  backY9 = -400;
+  }
+  if(200-backY10 <= -1)
+  {
+	  backY10 = -380;
+  }
+  if(220-backY11 <= -1)
+  {
+	  backY11 = -360;
+  }
+  if(240-backY12 <= -1)
+  {
+	  backY12 = -340;
+  }
+  if(260-backY13 <= -1)
+  {
+	  backY13 = -320;
+  }
+  if(280-backY14 <= -1)
+  {
+	  backY14 = -300;
+  }
+  if(300-backY15 <= -1)
+  {
+	  backY15 = -280;
+  }
+  if(320-backY16 <= -1)
+  {
+	  backY16 = -260;
+  }
+  if(340-backY17 <= -1)
+  {
+	  backY17 = -240;
+  }
+  if(360-backY18 <= -1)
+  {
+	  backY18 = -220;
+  }
+  if(380-backY19 <= -1)
+  {
+	  backY19 = -200;
+  }
+  if(400-backY20 <= -1)
+  {
+	  backY20 = -180;
+  }
+  if(420-backY21 <= -1)
+  {
+	  backY21 = -160;
+  }
+  if(440-backY22 <= -1)
+  {
+	  backY22 = -140;
+  }
+  if(460-backY23 <= -1)
+  {
+	  backY23 = -120;
+  }
+  if(480-backY24 <= -1)
+  {
+	  backY24 = -100;
+  }
+  if(500-backY25 <= -1)
+  {
+	  backY25 = -80;
+  }
+  if(520-backY26 <= -1)
+  {
+	  backY26 = -60;
+  }
+  if(540-backY27 <= -1)
+  {
+	  backY27 = -40;
+  }
+  if(560-backY28 <= -1)
+  {
+	  backY28 = -20;
+  }
+  if(580-backY29 <= -1)
+  {
+	  backY29 = -00;
+  }
+  if(600-backY30 <= -1)
+  {
+	  backY30 = 20;
+  }
+}
+
+void backGroundMove()
+{
+backY1+=20;
+backY2+=20;
+backY3+=20;
+backY4+=20;
+backY5+=20;
+backY6+=20;
+backY7+=20;
+backY8+=20;
+backY9+=20;
+backY10+=20;
+backY11+=20;
+backY12+=20;
+backY13+=20;
+backY14+=20;
+backY15+=20;
+backY16+=20;
+backY17+=20;
+backY18+=20;
+backY19+=20;
+backY20+=20;
+backY21+=20;
+backY22+=20;
+backY23+=20;
+backY24+=20;
+backY25+=20;
+backY26+=20;
+backY27+=20;
+backY28+=20;
+backY29+=20;
+backY30+=20;
+}
+
+int main()
+{
+	
+	t = iSetTimer(80, backGroundMove);
+
+	iInitialize(900, 600, "GOTG");
+	return 0;
+}
+
+void iMouseMove(int mx, int my)
+{
+	/*x=mx;
+	y=my;
+	printf("%d %d\n", mx,my );*/
+}
+
+
+void iMouse(int button, int state, int mx, int my)
+{
+	/*if(button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
+	{
+		printf("%d %d\n",mx,my);
+	}
+	if(button == GLUT_RIGHT_BUTTON && state == GLUT_DOWN)
+	{
+		printf("%d %d\n",mx,my);
+	}*/
+}
+
+
+void iPassiveMouseMove(int mx,int my)
+{
+	/*x = mx;
+	y = my;
+	printf("%d %d\n", mx,my);*/
+ 
+}
+
+
+void iKeyboard(unsigned char key)
+{
+
+	if(key == 'p'){
+		iPauseTimer(t);
+	}
+	if(key == 'r'){
+		iResumeTimer(t);
+	}
+
+	
+	//place your codes for other keys here
+}
+
+
+void iSpecialKeyboard(unsigned char key)
+{
+
+	/*if(key == GLUT_KEY_UP)
+	{
+		y = y+5;	
+	}
+	if(key == GLUT_KEY_DOWN)
+	{
+		y = y-5;
+	}
+	if(key == GLUT_KEY_LEFT){
+		bx = bx-30;
+	}
+	if(key == GLUT_KEY_RIGHT)
+	{
+		bx = bx+30;
+	}*/
+	
+}
+
+
+
