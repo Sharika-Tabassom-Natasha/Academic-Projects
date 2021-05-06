@@ -1,0 +1,17 @@
+﻿Build started 2017-08-05 2:38:39 PM.
+     1>Project "C:\Users\shari\Desktop\final1211\final1211\final-1\final - 1\30%\testProject2\testProject2\testProject2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\testProject2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         testProject2.vcxproj -> C:\Users\shari\Desktop\final1211\final1211\final-1\final - 1\30%\testProject2\Debug\testProject2.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\testProject2.unsuccessfulbuild".
+         Touching "Debug\testProject2.lastbuildstate".
+     1>Done Building Project "C:\Users\shari\Desktop\final1211\final1211\final-1\final - 1\30%\testProject2\testProject2\testProject2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04
