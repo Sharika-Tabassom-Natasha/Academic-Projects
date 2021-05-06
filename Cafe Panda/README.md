@@ -8,6 +8,34 @@ In today’s world a we have to spend much of the time outside, so we have to go
 ### Features ###
 This Cafe Management system is a user-friendly system. There will be many features in this management system. They are given below:
 
-![image](https://user-images.githubusercontent.com/63575456/117343512-30c66c80-aec6-11eb-911a-5494bbd6ca8e.png)
+<img src="https://user-images.githubusercontent.com/63575456/117343512-30c66c80-aec6-11eb-911a-5494bbd6ca8e.png" alt="alt text" width="400px" height="300px">
+
+1.There is a log in page where one has to log in for taking order or to see the history.
+<img src="https://user-images.githubusercontent.com/63575456/117344510-44260780-aec7-11eb-9b7f-502eaddf5209.png" alt="alt text" width="400px" height="300px">
+
+2.Then one has to choose one from the option.
+<img src="https://user-images.githubusercontent.com/63575456/117344600-5c962200-aec7-11eb-8f81-ec9a7e89c07b.png" alt="alt text" width="400px" height="300px">
+
+3.If one wants to see the menu then it will show this page.
+<img src="https://user-images.githubusercontent.com/63575456/117344678-76376980-aec7-11eb-8c1d-eee7843febc9.png" alt="alt text" width="400px" height="300px">
+
+4.And if one wants to take the order it will show the following page.Here one can choose the items with quantity which will show in a table with its price.
+<img src="https://user-images.githubusercontent.com/63575456/117344739-8c452a00-aec7-11eb-89a5-ed49055a67b8.png" alt="alt text" width="400px" height="300px">
+
+5.This management system will count the bill according to the quantity and the price of the items and tax and it will show this payment page.
+<img src="https://user-images.githubusercontent.com/63575456/117344804-9ff09080-aec7-11eb-8847-d2322d46558e.png" alt="alt text" width="400px" height="300px">
+
+7.And if the payment and everything goes ok it will print the receipt.
+<img src="https://user-images.githubusercontent.com/63575456/117344851-b565ba80-aec7-11eb-9652-dbacce6bdfc1.png" alt="alt text" width="400px" height="300px">
+
+8.Moreover,there is a history page which will include everyday’s history.It will be very beneficial to the manager and the owner.
+<img src="https://user-images.githubusercontent.com/63575456/117344936-cd3d3e80-aec7-11eb-8268-259ab54712b7.png" alt="alt text" width="400px" height="300px">
+
+9.This was the all over process.But if the manager or the owner wants to add new item there is also a solution.
+<img src="https://user-images.githubusercontent.com/63575456/117345027-e5ad5900-aec7-11eb-960e-0bca8178c358.png" alt="alt text" width="400px" height="300px">
+
+### Conclusion ###
+So at the end we can say that café management system will be very helpful for the customer. It will help the customer to save their precious time and energy. It will also show the official correct receipt of the costumer so there will be no error. Café owner will also able to count the profit and loss of the shop easily.
+
 
 
