@@ -1,0 +1,119 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\67f17571dceeeaf7c55af2d269e1b5a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\eb13a0f0b25095e4e952ce52f1a623df\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9aa525d99c1d7f286a7b36e5b7d16fc4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\59739f31419db6cd24a3a70737804f41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\e9c23d0a5a43b9acb1b050f4f964fe80\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\be3f02f128a6d06a55b811024a884d3d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\87d05a5e1028277a88819ff4e0e4e4b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\a1397ffd2feca7530afc8cb6d5a95009\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6c53860ac40cbb58767d75d0bb590298\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6120d7a62dec65bed1112369b073bb8f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\be061008786f1a119efa56272ad2a5d9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4de1510cca9f75bc89d237117d06208b\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:5:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\eb13a0f0b25095e4e952ce52f1a623df\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\eb13a0f0b25095e4e952ce52f1a623df\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.shari.talkingcalculator.MyApplication.Main
+ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:12:19-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.shari.talkingcalculator.MyApplication.Menu
+ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:19:9-56
+	android:name
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:19:19-53
+activity#com.example.shari.talkingcalculator.MyApplication.General
+ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:20:9-59
+	android:name
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:20:19-56
+activity#com.example.shari.talkingcalculator.MyApplication.History
+ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:21:9-59
+	android:name
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:21:19-56
+activity#com.example.shari.talkingcalculator.MyApplication.Scientific
+ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:22:9-71
+	android:name
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml:22:19-59
+uses-sdk
+INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\67f17571dceeeaf7c55af2d269e1b5a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\67f17571dceeeaf7c55af2d269e1b5a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\eb13a0f0b25095e4e952ce52f1a623df\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\eb13a0f0b25095e4e952ce52f1a623df\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9aa525d99c1d7f286a7b36e5b7d16fc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9aa525d99c1d7f286a7b36e5b7d16fc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\59739f31419db6cd24a3a70737804f41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\59739f31419db6cd24a3a70737804f41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\e9c23d0a5a43b9acb1b050f4f964fe80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\e9c23d0a5a43b9acb1b050f4f964fe80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\be3f02f128a6d06a55b811024a884d3d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\be3f02f128a6d06a55b811024a884d3d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\87d05a5e1028277a88819ff4e0e4e4b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\87d05a5e1028277a88819ff4e0e4e4b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\a1397ffd2feca7530afc8cb6d5a95009\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\a1397ffd2feca7530afc8cb6d5a95009\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6c53860ac40cbb58767d75d0bb590298\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6c53860ac40cbb58767d75d0bb590298\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6120d7a62dec65bed1112369b073bb8f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6120d7a62dec65bed1112369b073bb8f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\be061008786f1a119efa56272ad2a5d9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\be061008786f1a119efa56272ad2a5d9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4de1510cca9f75bc89d237117d06208b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\shari\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4de1510cca9f75bc89d237117d06208b\AndroidManifest.xml:20:5-44
+INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+		ADDED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sd lab\TalkingCalculator2\app\src\main\AndroidManifest.xml
