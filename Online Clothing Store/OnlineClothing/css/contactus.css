@@ -1,0 +1,71 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+container {
+	width: 100%;
+	height: 100%;
+	background-image: url('../Images/tons.jpg');
+	background-repeat: no-repeat;
+	align-items: center;
+}
+.content {
+    margin-left: 650px;
+    align-items: center;
+}
+.name{
+    height:35px;
+    width:250px;
+    margin-bottom:15px;
+}
+.mail {
+    height: 35px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+.msg {
+    height: 35px;
+    width: 250px;
+    margin-bottom: 15px;
+    
+}
+.btn {
+    margin-left:75px;
+    margin-bottom: 15px;
+    height:40px;
+    width:100px;
+    border-radius:30px;
+    background-color:cornflowerblue;
+    font-size:17px;
+}
+.status{
+    padding-top:200px;
+}
+
+.sec2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .sec2.container {
+        width: 45vw;
+        height: 66vh;
+    }
+
+    .sec2.social {
+        padding-left: 6.5vw;
+        padding-top: 6vh;
+    }
+
+    .sec2.container img {
+        width: 3.5vw;
+        height: 7vh;
+    }

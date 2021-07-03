@@ -1,0 +1,49 @@
+﻿.form {
+	background-color: white;
+	padding: 0px;
+}
+
+.main {
+	color: white;
+}
+
+.head {
+	text-align: center;
+	font-size: 70px;
+	color: white;
+	background-color: black;
+}
+
+.first {
+	color: black;
+	padding-top: 40px;
+	font-size: 17px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.second {
+	color: black;
+	padding-top: 40px;
+	padding-right: 100px;
+	font-size: 17px;
+	padding-left: 100px;
+}
+
+.third {
+	color: black;
+	font-size: 17px;
+	padding-top: 40px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.fourth {
+	color: black;
+	padding-top: 40px;
+	padding-right: 100px;
+	font-size: 17px;
+	padding-left: 100px;
+}
+
+

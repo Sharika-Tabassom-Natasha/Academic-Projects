@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="20dp"
+    tools:context=".MyApplication.History">
+
+    <TextView
+        android:id="@+id/historyTable"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:textColor="@color/colorbutton1"
+        android:scrollbars="vertical"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fadeScrollbars="true"
+        />
+    <Button
+        android:id="@+id/delete"
+        android:scrollbarSize="25dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Delete All"
+        android:textSize="35sp"
+        android:textColor="@color/btext"
+        android:background="@color/colorbutton1"
+        android:layout_below="@+id/historyTable"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textSize="35sp"
+        android:textColor="@color/btext"
+        android:background="@color/colorbutton1"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/historyTable"
+        android:layout_toEndOf="@+id/delete"
+        android:onClick="gotoMenu"/>
+
+</RelativeLayout>

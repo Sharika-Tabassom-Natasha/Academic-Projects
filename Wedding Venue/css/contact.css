@@ -1,0 +1,91 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: serif;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+#contactImage{
+  width: 100%;
+  height: 100%;
+}
+h5{
+  font-weight: bold;
+}
+
+.lower{
+  margin: 0px 180px 0px;
+  padding: 50px 10px;
+}
+
+.lowerForm{
+  text-align: center;
+  box-shadow: 2px 2px 20px 8px #DBDBDB;
+  margin: 15px;
+  padding: 10px 0px 10px;
+}
+
+.lowerForm h1{
+  font-weight: bold;
+}
+
+.Enter input,textarea{
+  margin-top: 15px;
+  border: none;
+  border-bottom: 2px solid #DBDBDB;
+  padding: 10px 30px 10px 0px;
+}
+
+.submit button{
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.lowerMedia {
+  text-align: left;
+  margin: 0px 10px 0px;
+  padding: 10px 10px;
+}
+.LM {
+  padding: 20px 20px 0px 0px;
+}
+
+
+@media (max-width: 1000px) {
+  .caption{
+    top:25%;
+  }
+  .caption h1{
+    font-size: 250%;
+  }
+  .caption h4{
+    font-size: 100%;
+  }
+
+  .lower{
+    position: static;
+    margin: 0px 30px 0px;
+  }
+}
+
+@media (max-width: 768px){
+  .lowerMedia {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .caption{
+    top:22%;
+  }
+  .caption h1{
+    font-size: 200%;
+  }
+  .caption h4{
+    font-size: 80%;
+  }
+
+
+}

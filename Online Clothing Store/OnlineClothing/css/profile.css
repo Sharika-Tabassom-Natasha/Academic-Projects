@@ -1,0 +1,178 @@
+﻿/* navbar section */
+
+html, body {
+	background-image: url("../Images/profile.jpg");
+	background-size: cover;
+	font-family: 'Bodoni MT';
+}
+
+
+
+form {
+    margin-left: 15px;
+}
+
+/* discount section */
+
+.carousel-inner {
+    text-align: center;
+}
+
+#Image {
+    margin-top: 10px;
+    width: 1200px;
+    height: 300px;
+    background-repeat: repeat;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 260px; /* Set the width of the sidebar */
+    background-color: #272A2D; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.label {
+    padding: 6px 8px 6px 16px;
+    font-size: 16px;
+    color: #D84B6B;
+    display: block;
+}
+
+    /* When you mouse over the navigation links, change their color */
+    .label:hover {
+        color: #f1f1f1;
+    }
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+.ikon {
+    background: #343A40;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+    .ikon:hover {
+        background: black;
+    }
+
+#table1 {
+    width: 20%;
+    float: right;
+    margin-right: 600px;
+    margin-top: 50px;
+}
+
+#table2 {
+    width: 20%;
+    float: right;
+    margin-right: 300px;
+    margin-top: -70px;
+}
+
+#table3 {
+    width: 20%;
+    float: right;
+    margin-right: 600px;
+    margin-top: 50px;
+}
+
+
+
+#table4 {
+    width: 20%;
+    float: right;
+    margin-right: 300px;
+    margin-top: -70px;
+}
+
+#wrapper {
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+#editButton {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin-top: 10px;
+    line-height: 15px;
+    width: 75px;
+    margin-left: 25px;
+}
+
+
+#logButton {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    line-height: 18px;
+    margin-top: -150px;
+    width: 95px;
+    float: right;
+    margin-right: 730px;
+}
+
+    #logButton:hover {
+        color: white;
+        background-color: black;
+    }
+
+
+#editButton:hover {
+    color: white;
+    background-color: black;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 10px 10px 5px grey;
+}
+
+    .card:hover {
+        background-color: #D84B6B;
+        color: white;
+    }
+
+.card-title {
+    font-weight: bold;
+    align-items: center;
+    padding: 30%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.card-writing {
+    font-size: 13px;
+}

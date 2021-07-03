@@ -1,0 +1,267 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="navbar.master.cs" Inherits="OnlineClothing.navbar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" 
+      integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="home.js"></script>
+    <link href="home.css" rel="stylesheet" />
+    <link href="product.css" rel="stylesheet" />
+
+    <asp:contentPlaceholder ID="editprofile" runat="server" />
+    <asp:contentPlaceholder ID="profile" runat="server" />
+
+
+    <title></title>
+
+</head>
+<body>
+
+<div>
+             
+    <div class="navigationSection">
+
+        <nav class="navbar  navbar-expand-md">
+          <a class="navbar-brand" href="home.aspx" >
+			 <img src="Images/logologo.png" />
+          </a>
+          <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#homenavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="homenavbar">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item dropdown active">
+                <a class="nav-link" href="category.aspx?Category=women" id="navbarDropdown1" data-toggle="dropdown">
+                  Woman
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1" id="navWomen">
+
+                    <a class="dropdown-item type" href="category.aspx?Category=women">women</a>
+
+                    <script>
+
+                        var n = "<%=this.womenType%>";
+                        var na = n.split('~');
+                        var item = [];
+
+                        for (var j = 0; j < na.length; j++) {
+                            var a = document.createElement('a');
+                            a.className = "dropdown-item";
+                            a.textContent = na[j]+" wear";
+                            a.href = "product.aspx?Type="+na[j]+"&Category=women";
+                            navWomen.appendChild(a);
+
+                        }                        
+
+                    </script>
+                  
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="category.aspx?Category=men" id="navbarDropdown2" role="button" data-toggle="dropdown">
+                  Man
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2" id="navMen">
+                    <a class="dropdown-item type" href="category.aspx?Category=men">men</a>
+                    <script>
+
+                        var n = "<%=this.menType%>";
+                        var na = n.split('~');
+                        var item = [];
+
+                        for (var j = 0; j < na.length; j++) {
+                            var a = document.createElement('a');
+                            a.className = "dropdown-item";
+                            a.textContent = na[j]+" wear";
+                            a.href = "product.aspx?Type="+na[j]+"&Category=men";
+                            navMen.appendChild(a);
+
+                        }                       
+
+                    </script>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="category.aspx?Category=kids" id="navbarDropdown3" role="button" data-toggle="dropdown">
+                  Kid
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown3" id="navKids">
+                    <a class="dropdown-item type" href="category.aspx?Category=kids">kids</a>
+                  <script>
+
+                        var n = "<%=this.kidsType%>";
+                        var na = n.split('~');
+                        var item = [];
+
+                        for (var j = 0; j < na.length; j++) {
+                            var a = document.createElement('a');
+                            a.className = "dropdown-item";
+                            a.textContent = na[j]+" wear";
+                            a.href = "product.aspx?Type="+na[j]+"&Category=kids";
+                            navKids.appendChild(a);
+
+                        }
+                        
+                    </script>
+                </div>
+              </li>
+
+
+                 <li class="nav-item">
+                <a class="nav-link" href="productAccessories.aspx" role="button">
+                  Accessories
+                </a>
+              </li>
+				 <li class="nav-item">
+                <a class="nav-link" href="http://localhost:49890/CustomT.aspx" role="button">
+                  Customize T-shirt
+                </a>
+              </li>
+
+
+            </ul>
+
+               <ul class="navbar-nav ml-auto" id="iconSection">
+
+                <li class="nav-item active">
+					<%if (Session["user"] != null)
+						{ %>
+
+						<a class="nav-link icon" href="profile.aspx">
+						  <i class="fa fa-user" style="font-size:30px"></i>
+						</a>
+
+					<%}
+					else
+					{%>
+
+					  <a class="nav-link icon" href="login.aspx">
+						 <i class="fa fa-user" style="font-size:30px"></i>
+					  </a>
+
+					<%} %>
+
+
+              </li>
+                <li class="nav-item ">
+                <a class="nav-link icon2" href="wishlist.aspx">
+                    <i class="fa fa-heart" style="font-size:30px"></i>
+
+                </a>
+              </li>
+                <li class="nav-item ">
+                <a class="nav-link icon3" href="cart.aspx">
+                    <i class="fa fa-shopping-cart" style="font-size:30px"></i>
+                </a>
+              </li>
+
+            </ul>
+
+              <form class="form-inline my-2 my-lg-0">
+                  
+                <div class="input-group">
+                  <div class="input-group-btn">
+                      <button class="btn btn-default" type="submit" onclick="search()">
+                        <i  class="fa fa-search"></i>
+                      </button>
+                    </div>
+                    <input id="searchtextbox" class="form-control mr-sm-3" type="text" placeholder="Search" />
+                  </div>
+            </form> 
+                 
+
+        </div>
+        </nav>
+
+    </div>  
+
+		<script>
+		function search() {
+			window.location =  "product.aspx?search=" + document.getElementById("searchtextbox").value;
+		}
+
+	</script>
+
+    <asp:ContentPlaceHolder ID="navigation" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+    <div class="footer">
+      <footer id="footerSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kid</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="policy.aspx">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+					<a href="contact.aspx" class="btn btn-default">Contact us</a>
+
+                    
+                </div>
+
+                <div class="col-md-3 policy">
+
+                           <p><i class="fa fa-certificate" aria-hidden="true"></i>
+                              <span><b>100% ORIGINAL guarantee</b> for all products </span></p>
+
+                        <p><i class="fa fa-refresh" aria-hidden="true"></i>
+                            <span><b>Return within 30days</b> of receiving your order</span>
+                        </p>
+                        <p><i class="fa fa-truck" aria-hidden="true"></i>
+                            <span><b>Get free delivery</b> for every order above BDT. 2000</span>
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+              <p>Posted by:<a href="onlineclothingstore@example.com">
+              someone@example.com</a>.</p>
+            <p>© Copyright </p>
+        </div>
+    </footer>
+
+</div>
+
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+
+
+
+
+
+</body>
+</html>

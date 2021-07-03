@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.card{
+  background-color:white;
+  width:200px;
+  height:200px;
+  margin-bottom:10px;
+}
+.card:hover{
+  opacity:0.9;
+}

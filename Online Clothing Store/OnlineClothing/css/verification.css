@@ -1,0 +1,39 @@
+﻿html, body {
+	background-image: url("../Images/profile.jpg");
+	background-size: cover;
+	font-family: 'Bodoni MT';
+}
+
+
+.back {
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    padding: 50px;
+    margin: auto auto;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.Button {
+    margin-top: 20px;
+    border-radius: 25px;
+    background: #d84b6b;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #d84b6b;
+    text-align: center;
+    color: white;
+}
+
+    .Button:hover {
+        border: 2px solid black;
+        background-color: black;
+        color: white;
+    }
+
+.Text {
+    border-radius: 25px;
+    width: 200px;
+    height: 20px;
+    border: 2px solid #d84b6b;
+}

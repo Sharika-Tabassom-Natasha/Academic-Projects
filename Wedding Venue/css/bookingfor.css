@@ -1,0 +1,31 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bookingfor{
+  background-image: url("../images/book.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  height: 60%;
+}
+
+.bookingfor h1{
+  padding: 30px 0px 0px 30px;
+}
+
+.bookingfor h3{
+padding-left: 40px;
+
+}
+.bookingfor{
+  padding-left: 40px;
+}
+
+#term{
+  margin:30px 0px
+}

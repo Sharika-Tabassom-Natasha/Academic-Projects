@@ -1,0 +1,32 @@
+﻿body {
+	background-image: url("../Images/register.jpg");
+	background-size: 80%;
+	padding-left: 500px;
+	font-family: 'Bodoni MT';
+
+}
+
+.card {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.btn-primary {
+    background-color: #2b2a2a;
+    border-color: #2b2a2a;
+}
+
+    .btn-primary:hover {
+        color: black;
+        background-color: white;
+        border-color: white;
+    }
+
+.instruction {
+    color: white;
+    font-size: 10px;
+}
+
+.ValidationError {
+    color: red;
+    font-size: 10px;
+}

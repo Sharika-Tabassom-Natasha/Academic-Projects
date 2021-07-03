@@ -1,0 +1,31 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: serif;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../images/back.jpg");
+}
+
+#heading h1{
+  text-align: center;
+  margin: 35px 25px 0px;
+  border-bottom: 2px solid;
+}
+
+h4{
+  padding: 20px 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.BC{
+  margin-left: 200px;
+  margin-bottom: 30px;
+    box-shadow: 2px 2px 20px 8px #DBDBDB;
+    background-color: white;
+}
+
+#link{
+  color: #C99B69;
+}

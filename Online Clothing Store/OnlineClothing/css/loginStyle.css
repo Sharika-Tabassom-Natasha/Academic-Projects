@@ -1,0 +1,75 @@
+﻿
+body {
+    margin:0;
+    padding:0;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("nid.jpg");
+    background-size:cover;
+}
+.sec2{
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sec2.container{
+    width:45vw;
+    height:66vh;
+}
+.sec2.social{
+    padding-left:6.5vw;
+    padding-top:6vh;
+}
+.sec2.container img{
+    width:3.5vw;
+    height:7vh;
+
+}
+.content h2{
+    color:white;
+    font-family:'Bookman Old Style';
+    font-size:45px;
+    padding-left:20px;
+}
+.content input[type=text]
+{
+    height:30px;
+    border:0;
+    margin-top:2.5vh;
+   
+    border-radius:20px;
+}
+.content input[type=password] {
+    height: 30px;
+    border: 0;
+    margin-top: 2.5vh;
+    border-radius: 20px;
+}
+.content input[type=submit]
+{
+    color:black;
+    margin-left:4vw;
+    margin-top:2vh;
+    padding:10px;
+    border-radius:6px;
+    border:1px solid;
+    background-color:coral;
+}
+.content input[placeholder]
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left:1vw;
+    font-size:13px;
+}

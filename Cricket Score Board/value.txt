@@ -1,0 +1,85 @@
+insert into playerInformationTable values 
+('Bangladesh','Tamim Iqbal','Batsman'),
+('Bangladesh','Imrul Kayes','Batsman'),
+('Bangladesh','Soumya Sarkar','Batsman'),
+('Bangladesh','Mominul Haque','Batsman'),
+('Bangladesh','Mashrafe Mortaza','Batsman'),
+('Bangladesh','Mohammad Saifuddin','Batsman'),
+('Bangladesh','Mehidy Hasan Miraz','Batsman'),
+('Bangladesh','Abu Jayed','Bowler'),
+('Bangladesh','Mushfiqur Rahim','Bowler'),
+('Bangladesh','Rubel Hossain','Bowler'),
+('Bangladesh','Taskin Ahmed','Bowler'),
+('Bangladesh','Nazmul Islam','Bowler'),
+('Bangladesh','Nayeem Hasan','Bowler'),
+('Bangladesh','Abu Hider','Bowler');
+
+insert into playerInformationTable values 
+('India','Virat Kohli','Batsman'),
+('India','Ajinkya Rahane','Batsman'),
+('India','Rohit Sharma','Batsman'),
+('India','Prithvi Shaw','Batsman'),
+('India','Ambati Rayudu','Batsman'),
+('India','Vijay Shankar','Batsman'),
+('India','Ravindra Jadeja','Batsman'),
+('India','Washington Sundar','Bowler'),
+('India','Mahendra Singh Dhoni','Bowler'),
+('India','Jasprit Bumrah','Bowler'),
+('India','Bhuvneshwar Kumar','Bowler'),
+('India','Mohammed Shami','Bowler'),
+('India','Ishant Sharma','Bowler'),
+('India','Kuldeep Yadav','Bowler'),
+('India','Yuzvendra Chahal','Bowler');
+
+insert into playerInformationTable values 
+('Australia','Joe Burns','Batsman'),
+('Australia','Aaron Finch','Batsman'),
+('Australia','Matt Renshaw','Batsman'),
+('Australia','Peter Handscomb','Batsman'),
+('Australia','Travis Head','Batsman'),
+('Australia','Ashton Agar','Batsman'),
+('Australia','Marnus Labuschagne','Batsman'),
+('Australia','Jason Behrendorff','Bowler'),
+('Australia','Nathan Coulter-Nile','Bowler'),
+('Australia','Tim Paine','Bowler'),
+('Australia','Jhye Richardson','Bowler'),
+('Australia','Chadd Sayers','Bowler'),
+('Australia','Andrew Tye','Bowler'),
+('Australia','Nathan Lyon','Bowler'),
+('Australia','Mitchell Swepson','Bowler');
+
+insert into playerInformationTable values 
+('Pakistan','Sarfraz Ahmed','Batsman'),
+('Pakistan','Azhar Ali','Batsman'),
+('Pakistan','Fakhar Zaman','Batsman'),
+('Pakistan','Imam-ul-Haq','Batsman'),
+('Pakistan','Babar Azam','Batsman'),
+('Pakistan','Asad Shafiq','Batsman'),
+('Pakistan','Asad Shafiq','Batsman'),
+('Pakistan','Shoaib Malik','Batsman'),
+('Pakistan','Faheem Ashraf','Bowler'),
+('Pakistan','Shadab Khan','Bowler'),
+('Pakistan','Mohammad Amir','Bowler'),
+('Pakistan','Hasan Ali','Bowler'),
+('Pakistan','Yasir Shah','Bowler'),
+('Pakistan','Wahab Riaz','Bowler'),
+('Pakistan','Junaid Khan','Bowler'),
+('Pakistan','Mohammad Abbas','Bowler');
+
+insert into playerInformationTable values
+('South Africa','Faf du Plessis','Batsman'),
+('South Africa','Hashim Amla','Batsman'),
+('South Africa','David Miller','Batsman'),
+('South Africa','David Miller','Batsman'),
+('South Africa','Dean Elgar','Batsman'),
+('South Africa','Zubayr Hamza','Batsman'),
+('South Africa','Wiaan Mulder','Batsman'),
+('South Africa','Quinton de Kock','Bowler'),
+('South Africa','Dwaine Pretorius','Bowler'),
+('South Africa','Junior Dala','Bowler'),
+('South Africa','Lungi Ngidi','Bowler'),
+('South Africa','Dane Paterson','Bowler'),
+('South Africa','Keshav Maharaj','Bowler'),
+('South Africa','Tabraiz Shamsi','Bowler');
+
+

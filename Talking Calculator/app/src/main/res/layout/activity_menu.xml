@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:padding="40dp"
+    tools:context=".MyApplication.Menu">
+
+    <Button
+        android:id="@+id/general"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/general"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/btext"
+        android:background="@color/colorbutton1"
+        android:onClick="gotoGeneral"/>
+
+    <Button
+        android:id="@+id/scintific"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/scintific"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/btext"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorbutton1"
+        android:layout_below="@id/general"
+        android:onClick="gotoScientific"/>
+
+    <Button
+        android:id="@+id/databaseHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/databaseHistory"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/btext"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorbutton1"
+        android:layout_below="@id/scintific"
+        android:onClick="gotoHistory"/>
+
+</RelativeLayout>

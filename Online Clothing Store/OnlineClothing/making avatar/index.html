@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html><html><head>
+    <script src="jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <script src="sketch.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 32px 55px;
+  font-size: 56px;
+  cursor: pointer;
+  transition: all ease-in-out 0.05s;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: darkgray;
+  border: 1px solid #888;
+}
+</style>
+  
+    </head>
+    <body style="background-color:#DCDCDC;">
+
+    <!--raw javascript-->
+    <script type="text/javascript">
+    var number;
+    var number2;
+    function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+    }
+
+    id=getUrlVars()["id"];
+    number = getUrlVars()["x"];
+    number2=getUrlVars()["icon"];
+    number3=getUrlVars()["y"];
+    number4=getUrlVars()["z"];
+   
+    initDD(id,number,number2,number3,number4);
+
+    </script>
+
+    <!--html-->
+
+   <button class="btn btn-default" title="Continue Shopping!"><a href="http://localhost:49890/productDetail.aspx?id=1" ><i class="fa fa-shopping-cart"></i></a></button>
+
+
+
+
+
+
+  
+
+</body></html>

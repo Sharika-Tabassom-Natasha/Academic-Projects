@@ -1,0 +1,33 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+.headline h1{
+   
+    text-align:center;
+    
+}
+.headline {
+    background-color:black;
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+#button  {
+    color: white;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin-top: 50px;
+    border-radius: 6px;
+    margin-left: 450px;
+    background-color:black;
+    align-content: center;
+}
+.assigngw {
+   
+    width: 300px;
+	margin:50px 80px;
+}
+
